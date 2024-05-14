@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { AiOutlineMail } from 'react-icons/ai';
-import officialResume from '../assets/Official-resume.pdf';
+import profileImg from '../assets/eric-profile.png';
 
 const AboutMe = () => {
   return (
@@ -10,41 +10,30 @@ const AboutMe = () => {
 
       {/* Introduction */}
       <img
-        src="https://avatars.githubusercontent.com/u/133562544?v=4"
+        src={profileImg}
         alt="Profile Picture"
         className="w-64 h-64 rounded-full mx-auto mb-4 hover:scale-110 ease-in duration-200"
       />
       <p className="text-gray-700 text-xl my-4">
-        Hi, I'm Terence Hughes, a passionate developer currently based in New York with a love for creating innovative solutions.
+      Welcome to my professional portfolio! I am Eric Nicholson, a seasoned Account Executive with a track record in Business-to-Business (B2B) environments.
       </p>
 
       {/* Additional Information */}
       <p className="text-gray-600 text-lg my-4">
-        I enjoy building applications that solve real-world problems and exploring new technologies. My experience as a chef in the hospitality industry has taught me valuable leadership skills and how to effectively communicate with team members. I also enjoy nature, spending time with family, and music. You can reach me via email, connect with me on LinkedIn, view my GitHub page, and checkout my resume using the links below.
+        With a solid foundation in Sales, Strategic Media Relations, Business Development, Marketing Strategy, and TV News Production, I bring experience and a unique perspective to every project I undertake.
+        In my current role as an Account Executive at EO Johnson, I excel in identifying opportunities, crafting effective sales strategies, and executing plans that enhance brand visibility and market penetration.
+        Beyond my professional life, I am passionate about sports and enjoy the challenges and teamwork they entail. As a dedicated father, I value the balance between my career and family, constantly striving to set a positive example for my children through hard work, integrity, and commitment.
+        By using the links below you can contact me directly via Email, and connect with me on LinkedIn.
+        Thank you for stopping by, I look forward to connecting and exploring potential opportunities to collaborate.
       </p>
 
       {/* Social Media Links */}
       <div className="flex justify-center gap-14 mt-4">
-        <a href="mailto:terencehughes450@gmail.com" target="_blank" rel="noopener noreferrer">
+        <a href="mailto:enicholson@eojohnson.com" target="_blank" rel="noopener noreferrer">
           <AiOutlineMail className="cursor-pointer hover:scale-110 ease-in duration-150" size={35} />
         </a>
-        <a href="https://www.linkedin.com/in/terence-hughes-27204128a/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/eric-n-121126114/" target="_blank" rel="noopener noreferrer">
           <FaLinkedinIn className="cursor-pointer hover:scale-110 ease-in duration-150" size={35} />
-        </a>
-        <a href="https://github.com/T-Hughes94" target="_blank" rel="noopener noreferrer">
-          <FaGithub className="cursor-pointer hover:scale-110 ease-in duration-150" size={35} />
-        </a>
-      </div>
-
-      {/* Download Resume Button */}
-      <div className="mt-8"> {/* Ensure there's space between the social links and the button */}
-        <a
-          href={officialResume} // Link to your resume file
-          target="_blank" // Open in a new tab
-          rel="noopener noreferrer"
-          className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300"
-        >
-          My Resume
         </a>
       </div>
     </div>
