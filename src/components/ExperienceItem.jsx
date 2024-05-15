@@ -2,7 +2,7 @@ import React from 'react';
 
 const ExperienceItem = ({ year, title, company, duration, location, details }) => {
   return (
-    <ol className="flex flex-col md:flex-row relative border-l border-stone-200 ml-4"> {/* Added margin-left for spacing */}
+    <ol className="flex flex-col md:flex-row relative border-l border-stone\\\-200 ml-4"> {/* Added margin-left for spacing */}
       <li className="mb-8"> {/* Margin-bottom for spacing between list items */}
         <div className="absolute w-4 h-4 bg-stone-200 rounded-full mt-1.5 -left-2 border-black"/> {/* Timeline circle */}
         <div className="ml-6"> {/* Margin-left for spacing from the timeline */}

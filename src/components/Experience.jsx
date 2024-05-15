@@ -32,7 +32,7 @@ const data = [
 const Experience = () => {
   return (
     <div id="experience" className="max-w-[1040px] mx-auto md:pl-20 p-4 py-16">
-      <h1 className="text-4xl font-bold text-center text-[#001b5e] mb-8">Experience</h1> {/* Heading */}
+      <h1 className="text-4xl font-bold text-center mb-8" style={{ color: '#32CD32' }}>Experience</h1> {/* Heading */}
       {data.map((item, idx) => (
         <ExperienceItem
           key={idx}

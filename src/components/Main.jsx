@@ -1,6 +1,6 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
-import coverPic from '../assets/eric-cover.png';
+import coverPic from '../assets/cover-photo.png';
 
 const Main = () => {
   return (
@@ -23,13 +23,11 @@ const Main = () => {
           <h2 className='justify-center flex sm:text-3xl text-2xl pt-4 text-gray-800'>
             <TypeAnimation
               sequence={[
-                'Account Executive',
+                'Account Executive 📈',
                 1000,
-                'Father',
+                'Father 💪🏼',
                 1000,
-                'Salesman',
-                1000,
-                'Professional',
+                'Professional 💼',
                 1000,
               ]}
               wrapper="div"

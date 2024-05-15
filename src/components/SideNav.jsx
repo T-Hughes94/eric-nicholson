@@ -53,7 +53,7 @@ const Sidenav = () => {
             <span className="pl-4">Education</span>
           </a>
           <a
-            href="mailto:your.email@example.com?subject=Contact from Website" // Email link with subject
+            href="mailto:enicholson@eojohnson.com?subject=Contact from Website" // Email link with subject
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
             onClick={closeNav} // Close the menu when clicked
           >
@@ -80,7 +80,7 @@ const Sidenav = () => {
           </a>
           <a
             href="#experience"
-            className="rounded-full bg-green-500 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+            className="rounded-full bg-green-400 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
           >
             <FaBriefcase size={20} />
           </a>
@@ -91,8 +91,8 @@ const Sidenav = () => {
             <FaGraduationCap  size={20} />
           </a>
           <a
-            href="mailto:your.email@example.com?subject=Contact from Website" // Email link with subject
-            className="rounded-full bg-orange-600 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+            href="mailto:enicholson@eojohnson.com?subject=Contact from Website" // Email link with subject
+            className="rounded-full bg-orange-400 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
             
           >
             <FaEnvelope size={20} />
