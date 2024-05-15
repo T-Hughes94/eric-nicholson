@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { AiOutlineMail } from 'react-icons/ai';
-import profileImg from '../assets/eric-profile.png';
+
 
 const AboutMe = () => {
   return (
@@ -10,7 +10,7 @@ const AboutMe = () => {
 
       {/* Introduction */}
       <img
-        src={profileImg}
+        src='https://media.licdn.com/dms/image/D4E03AQH8424a3gqnOQ/profile-displayphoto-shrink_800_800/0/1715734816404?e=1721260800&v=beta&t=-yfzOZqLksnxCMzRB4ddI8zcvAQ2Bvs4U_VWKb4CdIY'
         alt="Profile Picture"
         className="w-64 h-64 rounded-full mx-auto mb-4 hover:scale-110 ease-in duration-200"
       />
