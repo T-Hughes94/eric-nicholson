@@ -4,6 +4,7 @@ import SideNav from './components/SideNav'
 import Main from './components/Main'
 import AboutMe from './components/AboutMe'
 import Experience from './components/Experience'
+import Education from './components/Education'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <Main/>
     <AboutMe/>
     <Experience/>
+    <Education/>
     </>
   )
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import schoolLogo from '../assets/school-logo.png'; // Adjust the path to your school logo
+import schoolLogo from '../assets/logo.png'; // Adjust the path to your school logo
 
 const Education = () => {
   return (
@@ -10,12 +10,12 @@ const Education = () => {
         <img
           src={schoolLogo}
           alt="School Logo"
-          className="w-32 h-auto object-contain mb-4"
+          className="w-16 h-auto object-contain mb-4"
         />
         {/* Education Details */}
         <p className="text-center text-gray-700 mt-4">
-          <strong>Certificate of Completion</strong> <br />
-          Flatiron School, Denver, 2023
+          <strong>Huron University</strong> <br />
+          South Dakota State University, Huron, 2012
         </p>
       </div>
     </div>
